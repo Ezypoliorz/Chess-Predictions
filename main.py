@@ -17,7 +17,7 @@ def main() :
 
     print("Calling fetching function for testing data.")
     fetch_data.fetch(startIssue=1640, endIssue=1641, trainingSet=False)
-    print(f"Fetching took {int(time.perf_counter() - start_time)}s")
+    print(f"Fetching took {int(time.perf_counter() - intermediate_time)}s")
     intermediate_time = time.perf_counter()
 
     print("Calling training function.")
