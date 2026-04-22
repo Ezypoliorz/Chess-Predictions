@@ -1,0 +1,8 @@
+requests
+python-chess
+torch
+pandas
+scikit-learn
+xgboost
+numpy
+matplotlib

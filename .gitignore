@@ -1,0 +1,24 @@
+# Data files (JSON)
+# Excludes all JSON files to avoid uploading large datasets
+*.json
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Specific scripts used for testing
+# I might include some of them once they're cleaned up and functionnal
+dna_graph.py
+predict_tournament.py
+test_enhanced_elo.py
+players_dna.py
+test_model.py
+
+# Environment / IDE
+.venv/
+venv/
+.env
+.vscode/
+.idea/
