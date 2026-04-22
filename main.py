@@ -3,7 +3,6 @@
 
 import fetch_data
 import train_model
-import test_model
 import time
 
 def main() :
@@ -20,11 +19,6 @@ def main() :
     train_model.trainModel()
     print(f"Training the model took {int(time.perf_counter() - intermediate_time)}s")
     intermediate_time = time.perf_counter()
-
-    print("Calling evaluation function.")
-    test_model.testModel(1636, 1637)
-    print(f"Evaluating the PGN took {int(time.perf_counter() - intermediate_time)}s")
-    print(f"Total took {int(time.perf_counter() - start_time)}s")
 
 if __name__ == "__main__" :
     main()
