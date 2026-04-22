@@ -65,8 +65,8 @@ def trainModel() :
     model = xgb.XGBClassifier(
         objective = 'multi:softprob',
         num_class = 3,
-        n_estimators = 200, # Number of trees
-        max_depth = 8, # Maximum depth of each tree
+        n_estimators = 200,
+        max_depth = 8,
         learning_rate = 0.01,
         subsample = 0.8,
         colsample_bytree = 0.6,
